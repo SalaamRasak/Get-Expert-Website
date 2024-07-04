@@ -1,0 +1,147 @@
+.auth {
+  &_container {
+    display: flex;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  // height: 100%;
+  // justify-content: center;
+
+  &_container {
+    width: 50%;
+    padding: 5rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  &_inputs_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+
+    label {
+      font-size: 1.5rem;
+    }
+
+    input {
+      padding: 0.8rem;
+      font-size: 1.4rem;
+      outline: none;
+      border-radius: 1rem;
+      border: 1px solid #000;
+    }
+
+    select {
+      padding: 1rem;
+      border-radius: 1rem;
+      font-size: 1.6rem;
+
+      option {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  &_terms {
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    p {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    input {
+      margin: 0;
+    }
+
+    span {
+      color: #79addc;
+      font-size: 1.4rem;
+    }
+  }
+
+  button {
+    background-color: #ffee93;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 0;
+    margin-top: 2rem;
+  }
+
+  & > p {
+    text-align: right;
+    font-size: 1.4rem;
+
+    a {
+      font-size: inherit;
+    }
+  }
+}
+
+.splash_screen {
+  width: 50%;
+  position: relative;
+  // height: 100vh;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+  }
+
+  &_overlay {
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #ffc19fc5;
+  }
+
+  &_texts {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 0 8rem;
+    p {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0 0 0.8rem;
+      line-height: 2.5rem;
+    }
+
+    h3 {
+      font-size: 7rem;
+      margin: 0;
+      font-weight: 900;
+      letter-spacing: 1rem;
+      line-height: 6rem;
+      margin-bottom: 2rem;
+    }
+    span {
+      font-size: 1.6rem;
+      font-weight: 600;
+      border-top: 2px solid #79addc;
+      padding: 1rem;
+    }
+  }
+}

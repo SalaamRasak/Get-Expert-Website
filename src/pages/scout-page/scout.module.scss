@@ -1,0 +1,77 @@
+.scout {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.6rem;
+
+    button {
+      background-color: #ffee93;
+      padding: 0.8rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      border-radius: 0;
+      margin-top: 2rem;
+    }
+  }
+
+  &_right {
+    width: 60%;
+  }
+
+  &_about {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #79addc;
+      text-align: center;
+      margin: 0;
+    }
+
+    blockquote {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin: 0;
+      line-height: 1.9rem;
+      min-height: 18rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &_time_container {
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #79addc;
+      text-align: left;
+      margin: 1rem 0 0;
+    }
+
+    input {
+      font-size: 1.4rem;
+    }
+  }
+
+  &_times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 40rem;
+
+    span {
+      padding: 1rem;
+      cursor: pointer;
+      background-color: #ededed;
+      font-size: 1.4rem;
+    }
+  }
+}

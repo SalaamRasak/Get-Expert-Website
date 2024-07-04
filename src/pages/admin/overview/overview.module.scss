@@ -1,0 +1,27 @@
+.overview {
+  &_cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 8rem;
+  }
+
+  &_scouts {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 8rem;
+
+    h2 {
+      font-size: 2rem;
+      color: #79addc;
+      margin: 0;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #79addc;
+      cursor: pointer;
+    }
+  }
+}
