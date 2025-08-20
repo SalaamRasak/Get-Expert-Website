@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h5> Get Expert Website </h5>h5>
+The Get-Expert-Website was developed with the primary aim of making experts in various fields accessible to hirers and recruiters. The website was developed using React for client-side and Node.js for server-side. It aims at democratizing talents and providing a mutually beneficial condition for both recruiters and hirers.  
